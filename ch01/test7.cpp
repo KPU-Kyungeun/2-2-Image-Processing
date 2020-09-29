@@ -29,7 +29,7 @@ void drawCircle(int event, int x, int y, int, void* param)
 
 int main()
 {
-	img = imread("../resources/dog.jpg");
+	img = imread("../resources/ch01/dog.jpg");
 	if (img.empty())
 	{
 		cout << "영상을 읽을 수 없음" << endl; 

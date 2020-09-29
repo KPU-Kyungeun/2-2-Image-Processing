@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	Mat image;
-	image = imread("../resources/Lenna.jpg", IMREAD_COLOR);
+	image = imread("../resources/ch01/Lenna.jpg", IMREAD_COLOR);
 	if (image.empty())
 	{
 		cout << "영상을 읽을 수 없음" << endl;

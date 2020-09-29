@@ -9,7 +9,7 @@ int main()
 	// 웹캠인 경우
 	// VideoCapture cap(0);
 	// 동영상 파일인 경우
-	VideoCapture cap("../resources/trailer.mp4");
+	VideoCapture cap("../resources/ch01/trailer.mp4");
 
 	if (!cap.isOpened())
 	{
