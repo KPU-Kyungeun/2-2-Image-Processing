@@ -52,7 +52,7 @@ int main()
 		else if (key == 'c')
 		{
 			roi = clone(Rect(mx1, my1, mx2 - mx1, my2 - my1));
-			imwrite("d:/result.jpg", roi);
+			imwrite("../resources/out-image/result.jpg", roi);
 		}
 	}
 	return 0;

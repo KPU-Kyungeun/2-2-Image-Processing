@@ -15,7 +15,7 @@ int main()
 	Mat gray, edge, output;
 	cvtColor(src, gray, CV_BGR2GRAY);
 	imshow("gray", gray);
-	imwrite("d:/gray.jpg", gray);
+	imwrite("../resources/out-image/gray.jpg", gray);
 	waitKey(0);
 	return 0;
 }

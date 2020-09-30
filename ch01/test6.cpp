@@ -32,6 +32,6 @@ int main()
 	imshow("Image", img);
 	setMouseCallback("Image", drawCircle);
 	waitKey(0);
-	imwrite("d:/bug1.jpg", img);
+	imwrite("../resources/out-image/bug1.jpg", img);
 	return 0;
 }
