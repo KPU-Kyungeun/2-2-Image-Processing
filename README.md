@@ -4,9 +4,11 @@
 > OpenCV를 이용합니다
 
 ### Visual Studio 파일 구조
-|솔루션명|OpenCV|
-|--|--|
-|Resource|속성 시트 및 이미지|
+| 경로 | 역활|
+|---|---|
+| ../resources | 속성 시트 및 .dll |
+| ../resources/ch~ | 각 ch에 필요한 이미지 |
+| ../resources/out-image | OpenCV에서 가공된 이미지 |
 
 ### Library install
 1. [OpenCV – 3.4.1 설치](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.1/opencv-3.4.1-vc14_vc15.exe/download)
