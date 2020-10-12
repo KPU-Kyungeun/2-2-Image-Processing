@@ -8,9 +8,9 @@ OpenCV를 이용합니다
 
 | 경로 | 역할 |
 | --- | --- |
-| ../resources | 속성 시트 및 .dll |
-| ../resources/ch~ | 각 ch에 필요한 이미지 |
-| ../resources/out-image | OpenCV에서 가공된 이미지 |
+| /resources | 속성 시트 및 .dll |
+| /resources/ch~ | 각 ch에 에서 할당된 이미지 |
+| /resources/out-image | OpenCV에서 가공된 이미지 |
 
 ## Library install
 
@@ -18,3 +18,17 @@ OpenCV를 이용합니다
 2. ```C:\Program Files\``` 경로로 지정하고 설치
    - vs 속성키트의 라이브러리가 해당 경로로 지정되어 있음
 3. 실제 vs에서 실행시 Release x64으로 해야지 라이브러리 파일을 불러옵니다 (속성 시트가 적용되어 있음)
+
+## repos에 OpenCV 종속 실패 자료
+
+현 repos에 OpenCV를 종속하다 실패 한 속성시트 경로를 적어놓았습니다.
+
+C:\Users\ruddms936\source\repos\KPU-Kyungeun\2-2-Image-Processing\OpenCV\Library\opencv\build\x64\vc14\lib
+
+../Library/opencv/build/x64/vc14/lib
+
+../Library/opencv/build/x64/vc14/lib
+
+../Library/opencv/build/include
+
+/Library/opencv/build/include
