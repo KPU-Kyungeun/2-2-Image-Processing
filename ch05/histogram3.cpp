@@ -5,7 +5,7 @@ using namespace cv;
 
 int main(int argc, char** argv)
 {
-	Mat src = imread("lenna.jpg",  IMREAD_COLOR);
+	Mat src = imread("../resources/ch01/lenna.jpg",  IMREAD_COLOR);
 	if (src.empty())	{		return -1;	}
 
 	vector<Mat> bgr_planes;	// 영상들의 벡터
